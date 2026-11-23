@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>اللقاء الثالث</title>
+</head>
+
+<body>
+    <!--block tags-->
+    <h1>اللقاء الثالث</h1>
+    <b>
+        سيتم اليوم شرح اللقاء الثالث من مسار الفرونت اند وشرح باقي المفاهيم
+    </b>
+    inline tags
+    <a href="">اقرأ المزيد</a>
+    <a href="">الدخول على رابط موقع الفرونت اند</a>
+    <img src="img/images.jpeg" alt="" height="200" width="200" alt="">
+    <img src="img/pexels-leeloothefirst-20140050.jpg" alt="" height="200" width="200" alt="">
+    <br><br><br>
+    <span> now more</span>
+    <span>front end</span>
+    <hr><br><br>
+    <!-- المحور الثاني :الوسائط المتعددة-->
+    <video src="img/media/vedio/5332521220212525599.mp4" controls poster="img/pexels-leeloothefirst-20140050.jpg"
+        autoplay width="500" height="500" muted loop preload="metadata">المتصفح لا يدعم الفيديو</video>
+    <br><br><br>
+    <hr>
+    <!--تضمين االفيديوهات-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5XSSLWmq6eQ?si=5aM8YRL1TeZWB0Bj"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+       picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--الصوت-->
+    <audio>
+        <source src="تضع هنا ضيغة الصوت" type="audio/ogg">
+        controls autoplay muted loop preload="metadata">
+        <source src="هاد ان مازبط الاول هاد بديل اله بامتداد تاني" type="audio/mpeg">
+    </audio>
+
+    <!--محور الجداول-->
+    <table dir="rtl" border="1" width="100%" cellpadding=" 12" cellspacing="0">
+        <thead>
+            <tr>
+                <th scope="col">الرمز</th>
+                <th scope="col"> المنتج</th>
+                <th scope="col">يناير</th>
+                <th scope="col">فبراير</th>
+                <th scope="col">الحالة </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">#01</th>
+                <td>شاشة حاسوب</td>
+                <td>1500</td>
+                <td>1800</td>
+                <td>متوفر</td>
+            </tr>
+            <tr>
+                <td>#02</td>
+                <td>لوحة مفاتيح</td>
+                <td>400</td>
+                <td>400</td>
+                <td>نفذت</td>
+            </tr>
+            <tr>
+                <td>#0</td>
+                <td>سماعات الراس</td>
+                <td>400</td>
+                <td>400</td>
+                <td>نفذت</td>
+            </tr>
+            <tr>
+                <td>#04</td>
+                <td>المبيعات</td>
+                <td colspan="2">المجموع</td>
+            </tr>
+            <tr>
+                <td>#05</td>
+                <td>الكميات</td>
+                <td rowspan="2">المجموع</td>
+                <td>lkjjj</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">اجمالي الرصيد</td>
+                <td>5000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br />
+    <hr />
+
+    <!--tags form النماذج-->
+    <div>
+        <form action="" method="" enctype="multipart/form-data" autocomplete="on">
+            <label for="fname">the name complete</label>
+            <input type="text" name="first-name" id="fname" placeholder="enter your name" required maxlength="20"
+                minlength="2">
+    </div>
+    <br>
+    <div>
+        <label for="">Email</label>
+        <input type="email" name="" id="" required>
+    </div>
+    <br>
+    <div>
+        <label for="">password</label>
+        <input type="password" name="" id="" maxlength="20" minlength="2" placeholder="" autocomplete="current-password"
+            required>
+    </div>
+    <br>
+    <div>
+        <label for="">count</label>
+        <input type="number" name="" id="" max="20" min="1" value="قيمة اقتراضية1" step="">
+    </div>
+    <br>
+    <div>
+        <label for="">phon</label>
+        <input type="tel" name="" id="" placeholder="" pattern="[0-9]{10}" <!-- النمط الخاص بالارقام -->
+        >
+    </div>
+    <br>
+    <div>
+        <label for="">رابط الموقع الشخصي</label>
+        <input type="url" name="" id="" placeholder="">
+    </div>
+    <br>
+    <div>
+        <label for="">بحث</label>
+        <input type="search" name="" id="">
+    </div>
+    <br>
+    <div>
+        <label for=""> السيرة الذاتية</label>
+        <input type="file" name="" id="" multiple accept="pdf , images*#">
+    </div>
+    <br>
+    <div>
+        <p>اختيار المستوى الدراسي</p>
+        <input type="radio" name="degree" id="bacaloria" value="bs" checked>
+        <label for="bacaloria">Bacalorias</label>
+        <input type="radio" name="degree" id="deblome" value="db" checked>
+        * <label for="deblome">Deblome</label>
+        <input type="radio" name="degree" id="master" value="db" checked>
+        <label for="deblome">master</label>
+        <br>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <p>اختيار التخصص</p>
+        <input type="checkbox" name="degree" id="math" value="bs" checked>
+        <label for="bacaloria"> math</label>
+
+        <input type="checkbox" name="degree" id="since" value="db" checked>
+        <label for="deblome">since</label>
+
+        <input type="checkbox" name="degree" id="arabic" value="db" checked>
+        <label for="deblome">arabic</label>
+        <br>
+    </div>
+    <br>
+    <div>
+        <input type="date" name="" id="" maxlength="2026-06-05" minlength="2000-01-01">
+        <label for="">ناريخ الميلاد</label>
+    </div>
+    <br>
+    <label for="">موعد المقابلة</label>
+    <input type="time" name="" id="">
+    </div>
+    <br>
+    <div>
+        <label for="">اجتماع قوجل ميت</label>
+        <input type="datetime-local" name="" id="">
+    </div>
+    <br>
+    <div>
+        <label for="month"></label>
+        <input type="month" name="" id="">
+    </div>
+    <br>
+    <div>
+        <label for="">week</label>
+        <input type="week" name="" id="">
+    </div>
+    <br>
+    <div>
+        <label for="">favoerit color</label>
+        <input type="color" name="" id="" value="بنعطي فيم بالهيكساوrgb">
+    </div>
+    <br>
+    <div>
+        <label for="">مستوى الخبرة(1-10)</label>
+        <input type="range" name="" id="" value="3" max="10" min="2" step="2">
+    </div>
+    <br>
+    <div>
+        <label for="car">اختر السيارة</label>
+        <select name="select-car" هذا الاسم مهم للباك اند id="car" هذا الاسم مهم النا>
+            <optgroup label="germany cars">
+                <option value="">marseds</option>
+                <option value="">hondie</option>
+                <option value="">toyota</option>
+            </optgroup>
+            <optgroup label="usi cars">
+                <option value="">kia</option>
+                <option value="">504</option>
+            </optgroup>
+
+            <!-- هذه الطريقة في طريقة احدث منها ممكن نستخدم قائمة منسدلة -->
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="browser">المتصفح المفظل</label>
+        <input list="browser" name="" id="browser" placeholder="search">
+        <datalist id="browser">
+            <!-- لما بدنا نربط حاجتين ببعض بنعطيهم نفس الاي دي -->
+            <option value="جوجل">
+            <option value="كروم">
+            <option value="فاير فوكس">
+            <option value="ايدج">
+        </datalist>
+    </div>
+
+    <br><br><br>
+    <div>
+        <label for="">masseag</label>
+        <textarea name="" id="" rows="5" cols="10" placeholder="write the masseag"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="hidden" name="">
+        <input type="submit">
+        <input type="reset" value="حذف البيانات">
+    </div>
+    <br>
+    <button type="button">send-data</button>
+    <button type="reset">delete-data</button>
+    <button type="submit"><img src="img/pexels-leeloothefirst-20140050.jpg" alt="" height="200" width="200">
+        read-more</button>
+
+
+    </form>
+</body>
+
+</html>
